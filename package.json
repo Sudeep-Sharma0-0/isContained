@@ -1,0 +1,22 @@
+{
+  "name": "iscontained",
+  "version": "1.0.0",
+  "description": "Package checks if an range defined by an array is fully or partially contained in another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sudeep-Sharma0-0/isContained.git"
+  },
+  "keywords": [
+    "range"
+  ],
+  "author": "sudeep_sharma101",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Sudeep-Sharma0-0/isContained/issues"
+  },
+  "homepage": "https://github.com/Sudeep-Sharma0-0/isContained#readme"
+}
