@@ -1,6 +1,6 @@
 {
   "name": "rangecontain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package checks if an range defined by an array is fully or partially contained in another.",
   "main": "index.js",
   "scripts": {

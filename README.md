@@ -12,15 +12,13 @@ fully or partially contained in another.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
-- [Contact](#contact)
 
 ## Installation
 
 To install it, you can use npm:
 
 ```bash
-npm install your-package-name
+npm install rangecontain
 ```
 
 ## Usage
@@ -31,12 +29,12 @@ const { rangeContain } = require("rangecontain");
 const range1 = [2, 5];
 const range2 = [3, 8];
 
-console.log("Fully Contained:", isContained(range1, range2, "full"));
+console.log("Fully Contained:", rangeContain(range1, range2, "full"));
 // Expected true
 
 range1 = [2, 5];
 range2 = [4, 7];
 
-console.log("Partially Contained:", isContained(range1, range2, "part"));
+console.log("Partially Contained:", rangeContain(range1, range2, "part"));
 // Expected true
 ```
